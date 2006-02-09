@@ -6,7 +6,7 @@ use NEXT;
 use Catalyst::Request;
 use HTTP::MobileAgent;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 {
     package Catalyst::Request;
@@ -34,6 +34,12 @@ Catalyst::Plugin::MobileAgent - HTTP mobile user agent string parser plugin for 
 =head1 DESCRIPTION
 
 This Plugin is HTTP mobile user agent string parser for Catalyst.
+
+=head1 EXTENDED METHODS
+
+=head2 prepare_headers
+
+We set mobile_agent using L<HTTP::MobileAgent>.
 
 =head1 METHODS
 
