@@ -16,4 +16,4 @@ requires:
   Catalyst: 5.3
   HTTP::MobileAgent: 0.22
   Test::More: 0
-version: 0.04
+version: 0.041
